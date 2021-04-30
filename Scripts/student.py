@@ -57,7 +57,7 @@ def select():
     t = int(input())
     if t == 1:
         getalldetails(all_students)
-        print('Want to perform some other operation??? Y or N: ')
+        print('Want to perform some other operation?? Y or N: ')
         inp = input()
         if inp == 'Y':
             select()
